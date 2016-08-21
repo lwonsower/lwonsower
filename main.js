@@ -27,4 +27,4 @@ var main = angular.module('main', ['ngRoute'])
 
 .controller('ContactController', function($scope){
 	$scope.message="Hello!!!"
-})()
+});
