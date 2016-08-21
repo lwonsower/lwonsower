@@ -1,0 +1,49 @@
+@font-face {
+  font-family: MySultanCafe;
+  src: url(SultanCafe_PERSONAL_USE.ttf);
+}
+
+body{
+  background-color: #52534E
+}
+
+#container{
+  background-color: #2C2C2C;
+}
+
+.head {
+	font-family: MySultanCafe, Helvetica, Arial, sans-serif;
+	font-size: 120px;
+	padding-left: .5em;
+}
+
+.nav {
+	list-style-type: none;
+	list-style: none;
+	height: 30px;
+	background-color: #FA6374;
+	padding-top: .5em;
+}
+
+li {
+	display: inline;
+	font-size: 20px;
+	padding-bottom: 6px;
+}
+
+a {
+	text-decoration: none;
+	color: #2C2C2C;
+	font-style: bold;
+}
+
+a:visited{
+	color: #2C2C2C;
+	font-style: bold;
+}
+
+a:hover{
+	color: #CFE374;
+	font-style: bold;
+}
+
