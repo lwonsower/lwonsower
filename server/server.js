@@ -17,8 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // });
 
 app.use(express.static(path.join(__dirname, '../')));
-app.use('/main', express.static(path.join(__dirname, '../main.html/')));
-//app.use(express.static(path.join(__dirname, 'main.html')));
+app.use('/main', express.static(path.join(__dirname, '../main.html')));
 
 // app.get('/tumblr', function(req, res){
 // 	request.get('api.tumblr.com/v2/blog/mermaidcreek.tumblr.com/posts/?api_key=${apikeys.tumblr.consumer_key}', function (err, response, body) {

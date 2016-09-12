@@ -16,6 +16,7 @@ body {
 	width: 100%;
 	display: table;
 	padding: 0 0;
+	border-bottom: 2px solid #FFF;
 }
 
 .frontinner {
@@ -45,13 +46,13 @@ body {
 }
 
 .pageview {
-	padding: 30px;
+	padding: 15% 30px 0 30px;
 }
 
 #container {
   background-color: #D4DDE4;
   opacity: .5;
-  padding: 20px;
+  padding: 30px;
   font-size: 15px;
   font-family: sans-serif;
 }
@@ -66,19 +67,22 @@ body {
 }
 
 .nav {
+	position: fixed;
 	list-style-type: none;
 	list-style: none;
 	opacity: .8;
-	height: 30px;
+	height: 60px;
+	width: 100%;
 	background-color: #FA6374;
-	padding-top: .5em;
+	padding-top: 30px;
 	font-family: sans-serif;
+	z-index: 1;
 }
 
 li {
 	display: inline;
-	font-size: 20px;
-	padding-bottom: 6px;
+	font-size: 40px;
+	padding: 30px 0 0 15px;
 	margin: 15px;
 }
 
@@ -91,13 +95,14 @@ a {
 
 a:visited {
 	color: #2C2C2C;
+	opacity: .8;
 	font-style: bold;
 }
 
 a:hover {
 	font-style: bold;
 	color: #FFF;
-	opacity: 100%;
+	opacity: .8;
 }
 
 #embedcv {
