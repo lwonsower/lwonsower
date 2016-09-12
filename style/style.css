@@ -50,9 +50,10 @@ body {
 }
 
 #container {
-  background-color: #D4DDE4;
+  background-image: url('./waterfall.JPG');
+  background-size: cover;
   opacity: .5;
-  padding: 30px;
+  padding: 20px;
   font-size: 15px;
   font-family: sans-serif;
 }
@@ -105,17 +106,36 @@ a:hover {
 	opacity: .8;
 }
 
-#embedcv {
+#cvtable {
 	background-color: #5B677D;
+	opacity: .8;
 	align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-embed {
-	padding: 10px 0 0 15%;
+
+table {
+	padding: 20px;
+	opacity: 100%;
 	align: center;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+th {
+	padding: 20px;
+	text-align: left;
+	font-weight: normal;
+}
+
+.alignLeft {
+	float: left;
+	padding: 0;
+}
+
+.alignRight {
+	float: right;
+	padding: 0;
 }
 
