@@ -4,7 +4,44 @@
 }
 
 body {
-  background-color: #52534E;
+  background: linear-gradient(#D4DDE4, #415369);
+  margin: 0;
+}
+
+.frontbg {
+	position: absolute;
+	background-image: url('./waterfall.JPG');
+  background-size: cover;
+	height: 80%;
+	width: 100%;
+	display: table;
+	padding: 0 0;
+}
+
+.frontinner {
+	position: fixed;
+	color: #FFF;
+	width: 100%;
+	font-size: 130px;
+	font-family: MySultanCafe;
+	text-align: center;
+	opacity: .7;
+	padding: 18% 0 0 0;
+	display: table-cell;
+	margin: auto;
+}
+
+.middle {
+	height: 30%;
+	width: 100%;
+	opacity: .7;
+	padding: 750 0 50px 0;
+	margin: auto;
+	color: #FFF;
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 50px;
+	text-align: center;
 }
 
 .pageview {
@@ -12,26 +49,30 @@ body {
 }
 
 #container {
-  background-color: #797a73;
+  background-color: #D4DDE4;
+  opacity: .5;
   padding: 20px;
+  font-size: 15px;
   font-family: sans-serif;
 }
 
 .head {
-	font-family: MySultanCafe, Helvetica, Arial, sans-serif;
-	font-size: 120px;
+	font-family: MySultanCafe;
+	font-size: 130px;
 	padding-top: .5em;
 	padding-left: .5em;
+	color: #FFF;
+	opacity: .8;
 }
 
 .nav {
 	list-style-type: none;
 	list-style: none;
+	opacity: .8;
 	height: 30px;
 	background-color: #FA6374;
 	padding-top: .5em;
 	font-family: sans-serif;
-	font-weight: bold;
 }
 
 li {
@@ -43,7 +84,8 @@ li {
 
 a {
 	text-decoration: none;
-	color: #2C2C2C;
+	color: #FFF;
+	opacity: .8;
 	font-style: bold;
 }
 
@@ -53,12 +95,13 @@ a:visited {
 }
 
 a:hover {
-	color: #CFE374;
 	font-style: bold;
+	color: #FFF;
+	opacity: 100%;
 }
 
 #embedcv {
-	background-color: #6c6d67;
+	background-color: #5B677D;
 	align: center;
 	margin-left: auto;
 	margin-right: auto;
