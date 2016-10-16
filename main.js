@@ -10,9 +10,9 @@ var main = angular.module('main', ['ngRoute'])
 			templateUrl: '/pages/cv.html',
 			controller: 'CVController'
 		})
-		.when('/socialmedia', {
-			templateUrl: '/pages/socialmedia.html',
-			controller: 'SocialMediaController'
+		.when('/portfolio', {
+			templateUrl: '/pages/portfolio.html',
+			controller: 'PortfolioController'
 		})
 		.otherwise({redirectTo: '/index.html' });
 })
@@ -25,7 +25,7 @@ var main = angular.module('main', ['ngRoute'])
 	$scope.message="Hello!!!"
 })
 
-.controller('SocialMediaController', function($scope, GetFeed){
+.controller('PortfolioController', function($scope, GetFeed){
 	$scope.content = [];
 	$scope.getData = () => {
 		GetFeed.tumblrFeed().then(function(data){

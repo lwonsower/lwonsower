@@ -95,7 +95,7 @@ a {
 }
 
 a:visited {
-	color: #2C2C2C;
+	color: #FFF;
 	opacity: .8;
 	font-style: bold;
 }
@@ -108,7 +108,7 @@ a:hover {
 
 #cvtable {
 	background-color: #5B677D;
-	opacity: .8;
+	opacity: .95;
 	align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -139,3 +139,6 @@ th {
 	padding: 0;
 }
 
+h3 {
+	margin: 0 0 0 0;
+}
