@@ -6,14 +6,18 @@
 <head>
 	<title>lucy wonsower</title>
 </head>
-<body ng-app='main'>
-	<ul class='nav'>
-		<li><a href='#/cv'>cv</a></li>
-		<li><a href='#/portfolio'>portfolio</a></li>
-		<li><a href='#/contact'>contact</a></li>
-	</ul>
-	<div>
-	<div class='pageview' ng-view></div>
-<link rel='stylesheet' href='./style/style.css'>
+<body>
+  <div class="main-footer">
+		<li title="CV"><a href="./resume.pdf">CV</a></li>
+		<li title="linkedin"><a href='https://www.linkedin.com/in/lwonsower'><i class="fa fa-linkedin"></i></a></li>
+		<li title="github"><a href='https://github.com/lwonsower'><i class="fa fa-github"></i></a></li>
+		<li title="email"><a href='mailto:lwonsower@gmail.com'><span class="glyphicon glyphicon-send" /></a></li>
+	  <div>
+      <img src="./style/images/succulent.svg" class="succulent" />
+    </div>
+	</div>
+<link rel='stylesheet' href='./style/style.scss'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
 </body>
 </html>

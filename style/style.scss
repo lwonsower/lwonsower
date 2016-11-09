@@ -1,0 +1,105 @@
+@font-face {
+  font-family: MySultanCafe;
+  src: url(SultanCafe_PERSONAL_USE.ttf);
+}
+
+body {
+  background: linear-gradient(#D4DDE4, #415369);
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.frontbg {
+	position: absolute;
+	background-image: url('./waterfall.JPG');
+  background-size: cover;
+	height: 80%;
+	width: 100%;
+	display: table;
+	padding: 0 0;
+	border-bottom: 0.125em solid #FFF;
+}
+
+.frontinner {
+	color: #FFF;
+	width: 100%;
+	font-size: 8.125em;
+	font-family: MySultanCafe;
+	text-align: center;
+	opacity: .7;
+	padding: 18% 0 0 0;
+	margin: auto;
+}
+
+.middle {
+	height: 30%;
+	width: 100%;
+	opacity: 0.9;
+	padding: 15% 0 50px 0;
+	margin: auto;
+	color: #FFF;
+	font-family: Helvetica;
+	font-size: 3.125em;
+	text-align: center;
+}
+
+li {
+	  display: inline;
+	  margin: auto;
+	  list-syle: none;
+	  font-size: 0.5em;
+  }
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.main-footer {
+	font-size: 5em;
+	color: #FFF;
+	text-align: center;
+}
+
+.succulent-div {
+  text-align: center;
+}
+
+.succulent {
+  height: 25%;
+  width: 25%;
+}
+
+@media screen and (max-width: 600px) {
+
+	li {
+		font-size: 1em;
+	}
+
+  .middle {
+  	padding-top: 60%;
+    font-size: 4em;
+  }
+
+	.succulent {
+    height: 50%;
+    width: 50%;
+	}
+
+  .fontbg {
+  	padding: 0 0;
+  }
+
+  .frontinner {
+		font-size: 7em;
+		display: block;
+		text-align: center;
+		margin: 20% auto 0 auto;
+  }
+}
+
