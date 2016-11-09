@@ -55,8 +55,13 @@ a {
 	text-decoration: none;
 }
 
-li a:hover {
+a:visited {
+  color: #FFF;
+}
+
+a:hover {
 	color: #FFF;
+	opacity: 0.5;
 	text-decoration: none;
 }
 
@@ -70,9 +75,15 @@ li a:hover {
   text-align: center;
 }
 
-.succulent {
+.succulent-index {
+	margin-top: -10%;
   height: 25%;
   width: 25%;
+}
+
+.succulent-main {
+	height: 25%;
+	width: 25%;
 }
 
 @media screen and (max-width: 600px) {
@@ -86,7 +97,7 @@ li a:hover {
     font-size: 4em;
   }
 
-	.succulent {
+	.succulent-index, .succulent-main{
     height: 50%;
     width: 50%;
 	}
@@ -95,13 +106,14 @@ li a:hover {
   	top: 0;
   	height: 70%;
   	padding: 0 0;
+  	border-bottom: 1em solid #FFF;
   }
 
   .frontinner {
 		font-size: 7em;
 		display: block;
 		text-align: center;
-		margin: 20% auto 0 auto;
+		margin: 15% auto 0 auto;
   }
 }
 
