@@ -1,97 +1,49 @@
-$jellygreen: #01c3a7;
-$darkgrey: #616d71;
-$lightgrey: #c0c7ce;
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Dosis');
+
+$permanent-marker: 'Permanent Marker', serif;
+$dosis: 'Dosis', serif;
+
+// Palette
+$black: #1F2421;
+$darkgrey: #555555;
+$beige: #DDD1C7;
+$offwhite: #FEFEFF;
+$coral: #FF7C68;
 
 body {
-	font-family: Helvetica;
-	color: $darkgrey;
+	font-family: $dosis;
+	color: $black;
 }
 
-//Styles for Main component
+//Styles for main component
+
+.root {
+	background: $darkgrey;
+	height: 100vh;
+	width: 100vw;
+}
+
+.topbar {
+	color: $offwhite;
+	height: 80px;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	padding: 24px;
+	justify-content: space-between;
+}
 
 .title {
-	background: $jellygreen;
-	color: #FFF;
-	padding: 1em 0.5em;
-	width: 6em;
-	text-align: center;
-  margin: 1em auto 0 auto;
+	font-family: $permanent-marker;
+	font-size: 45px;
+	width: 50%;
 }
 
-.signature {
-	color: $jellygreen;
-	opacity: 0.6;
-	text-align: center;
-	font-weight: bold;
-	font-style: italic;
-}
-
-.input-form {
-	text-align: center;
-	margin: 3em 0;
-}
-
-input {
-	color: $darkgrey;
-	// background: $lightgrey;
-	border-radius: 5px 0 0 5px;
-	width: 10em;
-	font-size: 1.30em;
-	outline: none;
-	padding: 0.2em;
-}
-
-submit {
-  background: $jellygreen;
-  border-radius: 0 5px 5px 0;
-  border: $jellygreen 3px solid;
-  color: #FFF;
-  font-size: 1.30em;
-  padding: 0.2em;
-}
-
-//Styles for Answer component
-
-.answer-div {
-	margin: 3em auto 0 auto;
-	align: center;
-	border-top: $jellygreen 3px solid;
-	width: 50em;
-	.left-q {
-	  width: 50%;
-	  float: left;
-	  h4 {
-	  	text-align: center;
-	  }
-  }
-  .right-q {
-	  width: 50%;
-	  float: right;
-	  h4 {
-	  	text-align: center;
-	  }
-  }
-}
-
-
-//Styles for dropdown
-.drop-down {
-  text-align: center;
-  list-style: none;
-  font-size: 1.30em;
-  color: $darkgrey;
-  text-decoration: none;
-}
-
-//Styles for snippet & continued
-.snippet {
-	padding-right: 0.4em;
-	word-wrap: break-word; 
-	margin-bottom: 1em;
-}
-
-.continued {
-	padding-left: 0.4em;
-	word-wrap: break-word; 
-	margin-bottom: 1em;
+.directory {
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-transform: uppercase;
 }
